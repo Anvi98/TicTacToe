@@ -33,7 +33,7 @@ describe TicTacToe do
   describe '#arbiter' do
     it 'returns ""if none of the players is identified as winner ' do
       temp = TicTacToe.new
-      expect(temp.arbiter(8, 'X', 'Player1', [[1, 5, 9], [1, 2, 3], [1, 4, 7], [2, 5, 8], [3, 5, 7], [3, 6, 9], [4, 5, 6], [7, 8, 9]])).to eql("")
+      expect(temp.arbiter(8, 'X', 'Player1', [[1, 5, 9], [1, 2, 3], [1, 4, 7], [2, 5, 8], [3, 5, 7], [3, 6, 9], [4, 5, 6], [7, 8, 9]])).to eql('')
     end
   end
 end
